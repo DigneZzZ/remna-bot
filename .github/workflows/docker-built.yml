@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/remna-bot:latest
-            ghcr.io/${{ github.repository_owner }}/remna-bot:${{ github.sha }}
+            ghcr.io/dignezzz/remna-bot:latest
+            ghcr.io/dignezzz/remna-bot:${{ github.sha }}
